@@ -225,7 +225,19 @@ body {
 }
 
 .show_button {
+<<<<<<< HEAD
   padding: 6px 6.2px 2.3px 6px;
+=======
+  background: url(assets/help_icon.svg);
+  background-repeat: no-repeat;
+  background-size: 26px;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+>>>>>>> b832662be5726a80b4bf3352fa6ede8e6ecd98dc
   border-radius: 100%;
   border: none;
   background-color: transparent;
