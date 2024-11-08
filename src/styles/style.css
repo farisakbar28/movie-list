@@ -84,6 +84,7 @@ body {
 .search_bar {
   display: flex;
   align-items: center;
+  gap: 0.5rem;
 }
 
 .search_bar input {
@@ -95,16 +96,9 @@ body {
 }
 
 .search_bar button {
-  background: url(/assets/search-icon.svg);
-  background-repeat: no-repeat;
-  background-size: 26px;
-  background-position: center;
-  width: 40px;
-  height: 40px;
   border: none;
-  outline: none;
+  background-color: transparent;
   cursor: pointer;
-  transition: 0.3s ease;
 }
 
 .search_bar button:hover {
@@ -231,17 +225,11 @@ body {
 }
 
 .show_button {
-  background: url(/assets/help_icon.svg);
-  background-repeat: no-repeat;
-  background-size: 26px;
-  background-position: center;
-  width: 40px;
-  height: 40px;
-  border: none;
-  outline: none;
-  cursor: pointer;
+  padding: 6px 6.2px 2.3px 6px;
   border-radius: 100%;
-  padding: 6px 6px 6px 2px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .show_button:hover {
@@ -324,10 +312,9 @@ body {
   height: 16px;
 }
 
-.show_button.side {
-  background-size: 22px; 
-  width: 30px;
-  height: 30px;
+.show_button.side img {
+  width: 20px;
+  height: 20px;
 }
 
 .popup {
