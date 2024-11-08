@@ -95,7 +95,7 @@ body {
 }
 
 .search_bar button {
-  background: url(/assets/search-icon.svg);
+  background: url(assets/search-icon.svg);
   background-repeat: no-repeat;
   background-size: 26px;
   background-position: center;
@@ -231,7 +231,7 @@ body {
 }
 
 .show_button {
-  background: url(/assets/help_icon.svg);
+  background: url(assets/help_icon.svg);
   background-repeat: no-repeat;
   background-size: 26px;
   background-position: center;
