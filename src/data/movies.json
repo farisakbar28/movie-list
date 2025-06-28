@@ -1,0 +1,123 @@
+[
+  {
+    "id": "venom3",
+    "title": "Venom 3: The Last Dance",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTaC016BjB3nv2BaLrikHzNpmrBDHJILvgLWeSsk3e-2sHcFWpO",
+    "rating": 8.8,
+    "year": 2024,
+    "genres": ["Action", "Science-Fiction"],
+    "director": "Kelly Marcel",
+    "cast": ["Tom Hardy", "Kelly Marcel", "Avi Arad"],
+    "description": "Venom 3: The Last Dance adalah film aksi fiksi ilmiah terbaru yang melanjutkan kisah symbiote Venom dan inangnya, Eddie Brock. Mereka harus menghadapi ancaman baru yang menguji batas kekuatan mereka dan memutuskan nasib akhir mereka di dunia ini."
+  },
+  {
+    "id": "transformersOne",
+    "title": "Transformers One",
+    "image": "https://cdn.cgv.id/uploads_v2/movie/compressed/24027100.jpg",
+    "rating": 7.7,
+    "year": 2024,
+    "genres": ["Action", "Science-Fiction"],
+    "director": "Josh Cooley",
+    "cast": ["Chris Hemsworth", "Brian Tyree Henry", "Scarlett Johansson"],
+    "description": "Transformers One adalah film animasi yang menceritakan asal-usul persahabatan antara Optimus Prime dan Megatron sebelum mereka menjadi musuh bebuyutan. Film ini mengungkap sejarah Cybertron dan konflik yang memicu perang abadi antara Autobots dan Decepticons."
+  },
+  {
+    "id": "gunpowderMilkshake",
+    "title": "Gunpowder Milkshake",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRf6RY9Fm54niAsyblmBA9JXtBGP3taGVdxOhxoaw2PEEM90uZk",
+    "rating": 6.1,
+    "year": 2021,
+    "genres": ["Action", "Martial Art"],
+    "director": "Navot Papushado",
+    "cast": ["Karen Gillan", "Lena Headey", "Angela Bassett"],
+    "description": "Seorang pembunuh bayaran muda harus bergabung dengan ibunya yang terasing dan 'bibi-bibinya' yang mematikan untuk menghadapi sindikat kriminal pria yang kuat dan menggunakan keahlian mereka untuk bertahan hidup."
+  },
+  {
+    "id": "hunterKiller",
+    "title": "Hunter Killer",
+    "image": "https://cdn1-production-images-kly.akamaized.net/YoHE4z3QEAxLiV01cYyLymaJ0D0=/800x1066/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4679931/original/048382800_1702106496-Capturea.jpg",
+    "rating": 6.6,
+    "year": 2018,
+    "genres": ["Action", "Martial Art"],
+    "director": "Donovan Marsh",
+    "cast": ["Gerard Butler", "Gary Oldman", "Common"],
+    "description": "Hunter Killer adalah film thriller aksi yang mengikuti misi penyelamatan seorang kapten kapal selam AS untuk menyelamatkan Presiden Rusia yang diculik dan mencegah Perang Dunia III. Film ini penuh dengan ketegangan dan strategi militer."
+  },
+  {
+    "id": "theFamilyPlan",
+    "title": "The Family Plan",
+    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTfH3frcDD2Kej1XGI8dkCGk1SZpwPbQDmUdtgplajOVYaQkz6l",
+    "rating": 6.3,
+    "year": 2023,
+    "genres": ["Comedy", "Action"],
+    "director": "Simon Cellan Jones",
+    "cast": ["Mark Wahlberg", "Michelle Monaghan", "Ciarán Hinds"],
+    "description": "Seorang mantan pembunuh bayaran yang hidup tenang bersama keluarganya harus kembali beraksi setelah masa lalunya yang gelap muncul kembali. Dia mencoba melindungi keluarganya sambil menjaga rahasia identitas aslinya."
+  },
+  {
+    "id": "theHangover",
+    "title": "The Hangover",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7mNKrZTKJ-3jMDgEOA_XNR4rA7QIMeIe1tCk0CHiMAD2wqVqR",
+    "rating": 7.7,
+    "year": 2009,
+    "genres": ["Comedy", "Adventure"],
+    "director": "Todd Phillips",
+    "cast": ["Bradley Cooper", "Ed Helms", "Zach Galifianakis"],
+    "description": "Tiga teman bangun dari pesta bujangan yang liar di Las Vegas tanpa ingatan apa pun tentang malam sebelumnya, dan calon pengantin pria mereka hilang. Mereka harus menelusuri kembali langkah-langkah mereka untuk mencari tahu apa yang terjadi dan menemukan teman mereka."
+  },
+  {
+    "id": "agakLaen",
+    "title": "Agak Laen",
+    "image": "https://cdn.cgv.id/uploads_v2/movie/compressed/24000800.jpg",
+    "rating": 7.6,
+    "year": 2024,
+    "genres": ["Comedy", "Horror"],
+    "director": "Muhadkly Acho",
+    "cast": ["Indra Jegel", "Bene Dion", "Boris Bokir"],
+    "description": "Empat sekawan yang menjaga rumah hantu di pasar malam mencari cara agar rumah hantu mereka ramai. Mereka mencari hantu sungguhan dengan cara yang tidak biasa, yang justru membawa mereka ke dalam masalah besar yang menguji persahabatan mereka."
+  },
+  {
+    "id": "marniWeweGombel",
+    "title": "Marni: The Story of Wewe Gombel",
+    "image": "https://awsimages.detik.net.id/community/media/visual/2024/03/30/film-marni-the-story-of-wewe-gombel.jpeg?w=700&q=90",
+    "rating": 6.5,
+    "year": 2024,
+    "genres": ["Horror", "Thriller"],
+    "director": "Billy Christian",
+    "cast": ["Ismi Melinda", "Amanda Rigby", "Hannah Al Rashid"],
+    "description": "Marni: The Story of Wewe Gombel adalah film horor yang mengangkat legenda Wewe Gombel. Kisah ini berpusat pada teror yang disebabkan oleh hantu penculik anak-anak, dengan sentuhan modern yang menegangkan dan misterius."
+  },
+  {
+    "id": "pocongTheOrigin",
+    "title": "Pocong The Origin",
+    "image": "https://m.media-amazon.com/images/M/MV5BMmNiZjE1NWYtZWViMS00MzAyLTk4MmEtMmJjOGZjYzhiOWFkXkEyXkFqcGc@._V1_.jpg",
+    "rating": 5.5,
+    "year": 2019,
+    "genres": ["Horror", "Action"],
+    "director": "Monty Tiwa",
+    "cast": ["Samuel Rizal", "Adipati Dolken", "Bayu Skak"],
+    "description": "Film ini menceritakan tentang perjalanan seorang pria yang harus membawa jenazah ayahnya kembali ke kampung halaman untuk dimakamkan. Namun, selama perjalanan, ia diganggu oleh arwah gentayangan yang mengancam keselamatannya."
+  },
+  {
+    "id": "evilDeadRise",
+    "title": "Evil Dead Rise",
+    "image": "https://cdn.cgv.id/uploads/movie/compressed/23009700.jpg",
+    "rating": 6.5,
+    "year": 2023,
+    "genres": ["Horror", "Thriller"],
+    "director": "Lee Cronin",
+    "cast": ["Alyssa Sutherland", "Lily Sullivan", "Gabrielle Echols"],
+    "description": "Evil Dead Rise adalah babak baru dalam waralaba horor klasik. Film ini mengisahkan dua saudari yang terasing yang harus berjuang untuk bertahan hidup dan menyelamatkan keluarga mereka dari iblis pemakan daging yang kejam."
+  },
+  {
+    "id": "theWatchers",
+    "title": "The Watchers",
+    "image": "https://cdn.cgv.id/uploads_v2/movie/compressed/24016200.jpg",
+    "rating": 5.7,
+    "year": 2024,
+    "genres": ["Horror", "Mystery"],
+    "director": "Ishana Night Shyamalan",
+    "cast": ["Dakota Fanning", "Georgina Campbell", "Olwen Fouéré"],
+    "description": "The Watchers adalah film horor misteri yang menegangkan. Seorang seniman muda terjebak di hutan terpencil Irlandia dan menemukan dirinya terperangkap bersama tiga orang asing yang diamati oleh makhluk misterius setiap malam."
+  }
+]

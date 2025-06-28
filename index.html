@@ -9,7 +9,7 @@
   <body>
     <header class="header">
       <div class="jumbotron">
-        <img src="assets/logo.png" alt="logo" />
+        <img src="src/assets/logo.png" alt="logo" />
         <div class="jumbotron_text">
           <h1>Movie List</h1>
           <p>Find your favourite movie</p>
@@ -27,415 +27,30 @@
         <form class="search_bar" id="search">
           <input id="searchInput" type="text" placeholder="Search Movie" />
           <button id="submitSearch" type="submit">
-            <img src="assets/search-icon.svg" alt="" />
+            <img src="src/assets/search-icon.svg" alt="" />
           </button>
         </form>
       </nav>
     </header>
 
     <main class="main">
-      <div class="content">
-        <article class="movie_list" id="action">
+      <div class="content" id="movieContent">
+        <article class="movie_list">
           <h2 class="movie_list_title">Action</h2>
           <p class="movie_list_text">Get ready for an adventure</p>
-          <section id="actionMovieList" class="card_container">
-            <div class="card_group">
-              <div class="card_header">
-                <img
-                  class="card_img"
-                  src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTaC016BjB3nv2BaLrikHzNpmrBDHJILvgLWeSsk3e-2sHcFWpO"
-                  alt=""
-                />
-                <div class="card_info">
-                  <p><img src="assets/star_icon.svg" alt="star_icon" />8.8</p>
-                  <p>
-                    <img src="assets/calendar_icon.svg" alt="calendar_icon" />
-                    2024
-                  </p>
-                  <p>
-                    <img
-                      src="assets/genre_icon.svg"
-                      alt="clapperboard_icon"
-                    />Action, Science-Fiction
-                  </p>
-                </div>
-              </div>
-              <div class="card_body">
-                <h3>Venom 3: The Last Dance</h3>
-                <div class="card_buttons">
-                  <button class="add_button" type="button">
-                    <img src="assets/add_icon.svg" alt="add_button" />Add
-                    Favorite
-                  </button>
-                  <button class="show_button" type="button">
-                    <img src="assets/help_icon.svg" alt="" />
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div class="card_group">
-              <div class="card_header">
-                <img
-                  class="card_img"
-                  src="https://cdn.cgv.id/uploads_v2/movie/compressed/24027100.jpg"
-                  alt=""
-                />
-                <div class="card_info">
-                  <p><img src="assets/star_icon.svg" alt="star_icon" />7.7</p>
-                  <p>
-                    <img src="assets/calendar_icon.svg" alt="calendar_icon" />
-                    2024
-                  </p>
-                  <p>
-                    <img
-                      src="assets/genre_icon.svg"
-                      alt="clapperboard_icon"
-                    />Action, Science-Fiction
-                  </p>
-                </div>
-              </div>
-              <div class="card_body">
-                <h3>Transformers One</h3>
-                <div class="card_buttons">
-                  <button class="add_button" type="button">
-                    <img src="assets/add_icon.svg" alt="add_button" />Add
-                    Favorite
-                  </button>
-                  <button class="show_button" type="button">
-                    <img src="assets/help_icon.svg" alt="" />
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div class="card_group">
-              <div class="card_header">
-                <img
-                  class="card_img"
-                  src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRf6RY9Fm54niAsyblmBA9JXtBGP3taGVdxOhxoaw2PEEM90uZk"
-                  alt=""
-                />
-                <div class="card_info">
-                  <p><img src="assets/star_icon.svg" alt="star_icon" />6.1</p>
-                  <p>
-                    <img src="assets/calendar_icon.svg" alt="calendar_icon" />
-                    2021
-                  </p>
-                  <p>
-                    <img
-                      src="assets/genre_icon.svg"
-                      alt="clapperboard_icon"
-                    />Action, Martial Art
-                  </p>
-                </div>
-              </div>
-              <div class="card_body">
-                <h3>Gunpowder Milkshake</h3>
-                <div class="card_buttons">
-                  <button class="add_button" type="button">
-                    <img src="assets/add_icon.svg" alt="add_button" />Add
-                    Favorite
-                  </button>
-                  <button class="show_button" type="button">
-                    <img src="assets/help_icon.svg" alt="" />
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div class="card_group">
-              <div class="card_header">
-                <img
-                  class="card_img"
-                  src="https://cdn1-production-images-kly.akamaized.net/YoHE4z3QEAxLiV01cYyLymaJ0D0=/800x1066/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4679931/original/048382800_1702106496-Capturea.jpg"
-                  alt=""
-                />
-                <div class="card_info">
-                  <p><img src="assets/star_icon.svg" alt="star_icon" />6.6</p>
-                  <p>
-                    <img src="assets/calendar_icon.svg" alt="calendar_icon" />
-                    2018
-                  </p>
-                  <p>
-                    <img
-                      src="assets/genre_icon.svg"
-                      alt="clapperboard_icon"
-                    />Action, Martial Art
-                  </p>
-                </div>
-              </div>
-              <div class="card_body">
-                <h3>Hunter Killer</h3>
-                <div class="card_buttons">
-                  <button class="add_button" type="button">
-                    <img src="assets/add_icon.svg" alt="add_button" />Add
-                    Favorite
-                  </button>
-                  <button class="show_button" type="button">
-                    <img src="assets/help_icon.svg" alt="" />
-                  </button>
-                </div>
-              </div>
-            </div>
-          </section>
+          <section id="actionMovieList" class="card_container"></section>
         </article>
 
-        <article class="movie_list" id="comedy">
+        <article class="movie_list">
           <h2 class="movie_list_title">Comedy</h2>
           <p class="movie_list_text">Get ready for a laugh</p>
-          <section id="comedyMovieList" class="card_container">
-            <div class="card_group">
-              <div class="card_header">
-                <img
-                  class="card_img"
-                  src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTfH3frcDD2Kej1XGI8dkCGk1SZpwPbQDmUdtgplajOVYaQkz6l"
-                  alt=""
-                />
-                <div class="card_info">
-                  <p><img src="assets/star_icon.svg" alt="star_icon" />6.3</p>
-                  <p>
-                    <img src="assets/calendar_icon.svg" alt="calendar_icon" />
-                    2023
-                  </p>
-                  <p>
-                    <img
-                      src="assets/genre_icon.svg"
-                      alt="clapperboard_icon"
-                    />Comedy, Action
-                  </p>
-                </div>
-              </div>
-              <div class="card_body">
-                <h3>The Family Plan</h3>
-                <div class="card_buttons">
-                  <button class="add_button" type="button">
-                    <img src="assets/add_icon.svg" alt="add_button" />Add
-                    Favorite
-                  </button>
-                  <button class="show_button" type="button">
-                    <img src="assets/help_icon.svg" alt="" />
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div class="card_group">
-              <div class="card_header">
-                <img
-                  class="card_img"
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7mNKrZTKJ-3jMDgEOA_XNR4rA7QIMeIe1tCk0CHiMAD2wqVqR"
-                  alt=""
-                />
-                <div class="card_info">
-                  <p><img src="assets/star_icon.svg" alt="star_icon" />7.7</p>
-                  <p>
-                    <img src="assets/calendar_icon.svg" alt="calendar_icon" />
-                    2009
-                  </p>
-                  <p>
-                    <img
-                      src="assets/genre_icon.svg"
-                      alt="clapperboard_icon"
-                    />Comedy, Adventure
-                  </p>
-                </div>
-              </div>
-              <div class="card_body">
-                <h3>The Hangover</h3>
-                <div class="card_buttons">
-                  <button class="add_button" type="button">
-                    <img src="assets/add_icon.svg" alt="add_button" />Add
-                    Favorite
-                  </button>
-                  <button class="show_button" type="button">
-                    <img src="assets/help_icon.svg" alt="" />
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div class="card_group">
-              <div class="card_header">
-                <img
-                  class="card_img"
-                  src="https://cdn.cgv.id/uploads_v2/movie/compressed/24000800.jpg"
-                  alt=""
-                />
-                <div class="card_info">
-                  <p><img src="assets/star_icon.svg" alt="star_icon" />7.6</p>
-                  <p>
-                    <img src="assets/calendar_icon.svg" alt="calendar_icon" />
-                    2024
-                  </p>
-                  <p>
-                    <img
-                      src="assets/genre_icon.svg"
-                      alt="clapperboard_icon"
-                    />Comedy, Horror
-                  </p>
-                </div>
-              </div>
-              <div class="card_body">
-                <h3>Agak Laen</h3>
-                <div class="card_buttons">
-                  <button class="add_button" type="button">
-                    <img src="assets/add_icon.svg" alt="add_button" />Add
-                    Favorite
-                  </button>
-                  <button class="show_button" type="button">
-                    <img src="assets/help_icon.svg" alt="" />
-                  </button>
-                </div>
-              </div>
-            </div>
-          </section>
+          <section id="comedyMovieList" class="card_container"></section>
         </article>
 
-        <article class="movie_list" id="horror">
+        <article class="movie_list">
           <h2 class="movie_list_title">Horror</h2>
           <p class="movie_list_text">Get ready for a scare</p>
-          <section id="horrorMovieList" class="card_container">
-            <div class="card_group">
-              <div class="card_header">
-                <img
-                  class="card_img"
-                  src="https://awsimages.detik.net.id/community/media/visual/2024/03/30/film-marni-the-story-of-wewe-gombel.jpeg?w=700&q=90"
-                  alt=""
-                />
-                <div class="card_info">
-                  <p><img src="assets/star_icon.svg" alt="star_icon" />6.5</p>
-                  <p>
-                    <img src="assets/calendar_icon.svg" alt="calendar_icon" />
-                    2024
-                  </p>
-                  <p>
-                    <img
-                      src="assets/genre_icon.svg"
-                      alt="clapperboard_icon"
-                    />Horror, Thriller
-                  </p>
-                </div>
-              </div>
-              <div class="card_body">
-                <h3>Marni: The Story of Wewe Gombel</h3>
-                <div class="card_buttons">
-                  <button class="add_button" type="button">
-                    <img src="assets/add_icon.svg" alt="add_button" />Add
-                    Favorite
-                  </button>
-                  <button class="show_button" type="button">
-                    <img src="assets/help_icon.svg" alt="" />
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div class="card_group">
-              <div class="card_header">
-                <img
-                  class="card_img"
-                  src="https://m.media-amazon.com/images/M/MV5BMmNiZjE1NWYtZWViMS00MzAyLTk4MmEtMmJjOGZjYzhiOWFkXkEyXkFqcGc@._V1_.jpg"
-                  alt=""
-                />
-                <div class="card_info">
-                  <p><img src="assets/star_icon.svg" alt="star_icon" />5.5</p>
-                  <p>
-                    <img src="assets/calendar_icon.svg" alt="calendar_icon" />
-                    2019
-                  </p>
-                  <p>
-                    <img
-                      src="assets/genre_icon.svg"
-                      alt="clapperboard_icon"
-                    />Horror, Action
-                  </p>
-                </div>
-              </div>
-              <div class="card_body">
-                <h3>Pocong The Origin</h3>
-                <div class="card_buttons">
-                  <button class="add_button" type="button">
-                    <img src="assets/add_icon.svg" alt="add_button" />Add
-                    Favorite
-                  </button>
-                  <button class="show_button" type="button">
-                    <img src="assets/help_icon.svg" alt="" />
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div class="card_group">
-              <div class="card_header">
-                <img
-                  class="card_img"
-                  src="https://cdn.cgv.id/uploads/movie/compressed/23009700.jpg"
-                  alt=""
-                />
-                <div class="card_info">
-                  <p><img src="assets/star_icon.svg" alt="star_icon" />6.5</p>
-                  <p>
-                    <img src="assets/calendar_icon.svg" alt="calendar_icon" />
-                    2023
-                  </p>
-                  <p>
-                    <img
-                      src="assets/genre_icon.svg"
-                      alt="clapperboard_icon"
-                    />Horror, Thriller
-                  </p>
-                </div>
-              </div>
-              <div class="card_body">
-                <h3>Evil Dead Rise</h3>
-                <div class="card_buttons">
-                  <button class="add_button" type="button">
-                    <img src="assets/add_icon.svg" alt="add_button" />Add
-                    Favorite
-                  </button>
-                  <button class="show_button" type="button">
-                    <img src="assets/help_icon.svg" alt="" />
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div class="card_group">
-              <div class="card_header">
-                <img
-                  class="card_img"
-                  src="https://cdn.cgv.id/uploads_v2/movie/compressed/24016200.jpg"
-                  alt=""
-                />
-                <div class="card_info">
-                  <p><img src="assets/star_icon.svg" alt="star_icon" />5.7</p>
-                  <p>
-                    <img src="assets/calendar_icon.svg" alt="calendar_icon" />
-                    2024
-                  </p>
-                  <p>
-                    <img
-                      src="assets/genre_icon.svg"
-                      alt="clapperboard_icon"
-                    />AHorror, Mistery
-                  </p>
-                </div>
-              </div>
-              <div class="card_body">
-                <h3>The Watchers</h3>
-                <div class="card_buttons">
-                  <button class="add_button" type="button">
-                    <img src="assets/add_icon.svg" alt="add_button" />Add
-                    Favorite
-                  </button>
-                  <button class="show_button" type="button">
-                    <img src="assets/help_icon.svg" alt="" />
-                  </button>
-                </div>
-              </div>
-            </div>
-          </section>
+          <section id="horrorMovieList" class="card_container"></section>
         </article>
       </div>
 
@@ -443,120 +58,58 @@
         <article id="sideMovieList" class="side_movie_list">
           <h2 class="movie_list_title">Latest Movies</h2>
           <p class="movie_list_text">Check out the latest movies</p>
-          <section id="latestMovieList" class="side_card_container">
-            <div class="side_card_group">
-              <img
-                class="side_card_image"
-                src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTaC016BjB3nv2BaLrikHzNpmrBDHJILvgLWeSsk3e-2sHcFWpO"
-                alt=""
-              />
-              <div class="side_card_body">
-                <div class="side_card_credits">
-                  <p>Director: Kelly Marcel</p>
-                  <p>Cast: Tom Hardi, Kelly Marcel, Avi Arad</p>
-                </div>
-                <h2 class="side_card_title">Venom 3: The Last Dance</h2>
-                <div class="side_card_info">
-                  <p><img src="assets/star_icon.svg" alt="" />8.8</p>
-                  <p><img src="assets/calendar_icon.svg" alt="" />2024</p>
-                  <button class="show_button side" type="button">
-                    <img src="assets/help_icon.svg" alt="" />
-                  </button>
-                </div>
-              </div>
-            </div>
+          <section id="latestMovieList" class="side_card_container"></section>
+        </article>
 
-            <div class="side_card_group">
-              <img
-                class="side_card_image"
-                src="https://cdn.cgv.id/uploads_v2/movie/compressed/24027100.jpg"
-                alt=""
-              />
-              <div class="side_card_body">
-                <div class="side_card_credits">
-                  <p>Director: Josh Cooleyl</p>
-                  <p>Cast: Brian Goldner, Steven Spielberg, Brad Fischer</p>
-                </div>
-                <h2 class="side_card_title">Transformers One</h2>
-                <div class="side_card_info">
-                  <p><img src="assets/star_icon.svg" alt="" />7.7</p>
-                  <p><img src="assets/calendar_icon.svg" alt="" />2024</p>
-                  <button class="show_button side" type="button">
-                    <img src="assets/help_icon.svg" alt="" />
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div class="side_card_group">
-              <img
-                class="side_card_image"
-                src="https://awsimages.detik.net.id/community/media/visual/2024/03/30/film-marni-the-story-of-wewe-gombel.jpeg?w=700&q=90"
-                alt=""
-              />
-              <div class="side_card_body">
-                <div class="side_card_credits">
-                  <p>Director: Billy Christian</p>
-                  <p>Cast: Ismi Melinda, Amanda Rigby, Hannah Al Rashid</p>
-                </div>
-                <h2 class="side_card_title">Marni: The Story of Wewe Gombel</h2>
-                <div class="side_card_info">
-                  <p><img src="assets/star_icon.svg" alt="" /> 6.5</p>
-                  <p><img src="assets/calendar_icon.svg" alt="" />2024</p>
-                  <button class="show_button side" type="button">
-                    <img src="assets/help_icon.svg" alt="" />
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div class="side_card_group">
-              <img
-                class="side_card_image"
-                src="https://cdn.cgv.id/uploads_v2/movie/compressed/24000800.jpg"
-                alt=""
-              />
-              <div class="side_card_body">
-                <div class="side_card_credits">
-                  <p>Director: Muhadkly Acho</p>
-                  <p>Cast: Indra Jegel, Bene Dion, Boris Bokir</p>
-                </div>
-                <h2 class="side_card_title">Agak Laen</h2>
-                <div class="side_card_info">
-                  <p><img src="assets/star_icon.svg" alt="" />7.6</p>
-                  <p><img src="assets/calendar_icon.svg" alt="" />2024</p>
-                  <button class="show_button side" type="button">
-                    <img src="assets/help_icon.svg" alt="" />
-                  </button>
-                </div>
-              </div>
-            </div>
+        <article id="favoriteMoviesSection" class="side_movie_list">
+          <h2 class="movie_list_title">My Favorites</h2>
+          <p class="movie_list_text">Your beloved movie collection</p>
+          <section id="favoriteMovieList" class="side_card_container">
+            <p
+              id="noFavoritesMessage"
+              style="
+                text-align: center;
+                color: rgba(255, 255, 255, 0.7);
+                display: none;
+              "
+            >
+              No favorites added yet.
+            </p>
           </section>
         </article>
       </aside>
 
-      <!-- POPUP HIDDEN: AKAN AKTIF JIKA DI KLIK -->
       <section class="popup" id="popup">
         <div class="popup_content">
           <div class="popup_header">
             <div class="popup_head">
               <img
-                src="https://cdn.cgv.id/uploads_v2/movie/compressed/23027400.jpg"
-                alt=""
+                src=""
+                alt="Movie Poster"
                 class="popup_image"
+                id="popupImage"
               />
               <div class="popup_info">
-                <h1>Judul Film</h1>
+                <h1 id="popupTitle"></h1>
                 <div class="popup_detail">
-                  <p><img src="assets/star_icon.svg" alt="" />10</p>
-                  <p><img src="assets/calendar_icon.svg" alt="" />2024</p>
-                  <p>17+</p>
+                  <p>
+                    <img src="src/assets/star_icon.svg" alt="Star icon" /><span
+                      id="popupRating"
+                    ></span>
+                  </p>
+                  <p>
+                    <img
+                      src="src/assets/calendar_icon.svg"
+                      alt="Calendar icon"
+                    /><span id="popupYear"></span>
+                  </p>
+                  <p id="popupAgeRating"></p>
                 </div>
                 <h3>
-                  <img src="assets/genre_icon.svg" alt="" /><strong
-                    >Genre:</strong
-                  >
-                  Action, Comedy
+                  <img
+                    src="src/assets/genre_icon.svg"
+                    alt="Genre icon"
+                  /><strong>Genre:</strong> <span id="popupGenres"></span>
                 </h3>
               </div>
             </div>
@@ -564,21 +117,50 @@
           </div>
           <div class="popup_body">
             <div class="popup_credits">
-              <p><strong>Director:</strong> Jimi</p>
-              <p><strong>Cast:</strong> Jimi, Roki, Samuel</p>
+              <p><strong>Director:</strong> <span id="popupDirector"></span></p>
+              <p><strong>Cast:</strong> <span id="popupCast"></span></p>
             </div>
-            <p class="popup_description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-              vel? Aperiam mollitia aliquid placeat unde sint, similique
-              incidunt quas at illo rem molestias, modi, sed nemo fuga eaque
-              explicabo iure dolor est aspernatur tempora repellendus?
-            </p>
-            <button type="button" class="add_button">
-              <img src="assets/add_icon.svg" alt="add_button" />Add Favorite
+            <p class="popup_description" id="popupDescription"></p>
+            <button type="button" class="add_button" id="popupAddFavorite">
+              <img src="src/assets/add_icon.svg" alt="Add button" />Add Favorite
             </button>
           </div>
         </div>
       </section>
+
+      <div
+        id="notificationPopup"
+        class="notification_popup"
+        style="display: none"
+      >
+        <div class="notification_content">
+          <p id="notificationMessage"></p>
+          <button
+            id="notificationCloseButton"
+            class="notification_close_button"
+          >
+            &times;
+          </button>
+        </div>
+      </div>
+
+      <div
+        id="confirmationPopup"
+        class="confirmation_popup"
+        style="display: none"
+      >
+        <div class="confirmation_content">
+          <p id="confirmationMessage"></p>
+          <div class="confirmation_buttons">
+            <button id="confirmYesButton" class="confirm_button confirm_yes">
+              Ya
+            </button>
+            <button id="confirmNoButton" class="confirm_button confirm_no">
+              Tidak
+            </button>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer class="footer">
@@ -624,32 +206,6 @@
       <p class="copyright">Copyright &copy; 2024 | Faris Akbar</p>
     </footer>
 
-    <script>
-      const showButton = document.querySelectorAll(".show_button");
-      const addFav = document.querySelectorAll(".add_button");
-
-      showButton.forEach((button) => {
-        const popup = document.getElementById("popup");
-        const popupClose = document.querySelector(".popup_close");
-
-        button.addEventListener("click", () => {
-          popup.style.display = "block";
-
-          popupClose.addEventListener("click", () => {
-            popup.style.display = "none";
-          });
-
-          popup.addEventListener("click", (event) => {
-            if (event.target === popup) popup.style.display = "none";
-          });
-        });
-      });
-
-      addFav.forEach((button) => {
-        button.addEventListener("click", () => {
-          alert("Berhasil Menambahkan Film Favorit!");
-        });
-      });
-    </script>
+    <script src="src/scripts/main.js" type="module"></script>
   </body>
 </html>
